@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 150px;
+    background-color: grey;
+}
+.liste {
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    list-style: none;
+
+}
+.liste a{
+    color: white;
+    text-decoration: none;
+}
+
+.livreA{
+    
+    height: auto;
+    background-color: teal; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.carre {
+  margin: auto; 
+  margin-top: 1%;
+  margin-bottom: 1%;
+  height: auto;
+  width: 300px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color:cornflowerblue;
+}
+p{
+    text-align: center;
+    margin-top: 2%;
+}
+footer{
+    height: 250px;
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    margin-top: 5%;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 150px;
+    background-color: grey;
+}
+.liste {
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    list-style: none;
+
+}
+.bonjour{
+    text-align: center;
+ 
+}
+
+.titre,.fondecran{
+    display: flex;
+    justify-content: center;
+}
+.liste a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    height: 600px;
+    background-color: teal;   
+}
+
+
+
+footer{
+    height: 250px;
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    margin-top: 5%;
+}
